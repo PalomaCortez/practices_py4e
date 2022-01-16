@@ -1,0 +1,13 @@
+# Practice with Python Files
+# file methods
+# for loop
+
+'''
+py4e book ex_07_01: Write a program to read through a file and print the contents of the file (line by line)
+all in upper case. Executing the program will look as follows:
+'''
+
+fhand = open('mbox-short.txt')
+for line in fhand:
+    line = line.rstrip()
+    print(line.upper())
